@@ -1,4 +1,6 @@
-﻿class MyClass
+﻿using Linq_basics;
+
+class MyClass
 {
     static IEnumerable<string> Suits()
     {
@@ -32,7 +34,7 @@
                        select new { s, r };
 
         //using method
-        //var CardDeck = Suits().SelectMany(suit => Ranks().Select(rank => new { Suit = suit, Rank = rank }));
+       // var CardDeck = Suits().SelectMany(suit => Ranks().Select(rank => new { Suit = suit, Rank = rank }));
         foreach (var card in CardDeck)
         {
             Console.WriteLine(card);
@@ -42,10 +44,51 @@
         var odds = from s in numbers
                    where s % 2 != 0
                    select s;
+
         Console.WriteLine("Odd numbers are: ");
         foreach (var num in odds)
         {
             Console.WriteLine(num);
         }
+
+        Employee[] emps = new Employee[]
+        {
+            new Employee("Meet","Kerasiya","Amreli"),
+            new Employee("Mitesh","Kateliya","Kodinar"),
+            new Employee("Bhayo","Sisodiya","Junagadh"),
+            new Employee("Krupal","Vasani","Amreli"),
+            new Employee("Jay","Laheri","Amreli"),
+            new Employee("Krunal","Togadiya","Amreli"),
+            new Employee("Hiren","Kanet","Porbandar"),
+            new Employee("Kamal","jethva","Junagadh"),
+
+        };
+        IEnumerable<Employee> amreli_emp = from e in emps
+                                           where e.City is "Amreli"
+                                           select e;
+        Console.WriteLine("Employees from amreli");
+        foreach (var item in amreli_emp)
+        {
+            Console.WriteLine(item);
+        }
+        IEnumerable<Employee> Junagadh_emp = from e in emps
+                                           where e.City is "Junagadh"
+                                           select e;
+        Console.WriteLine("Employees from Junagadh");
+
+        foreach (var item in Junagadh_emp)
+        {
+            Console.WriteLine(item);
+        }
+        IEnumerable<Employee> other_emp = from e in emps
+                                           where e.City is not "Junagadh" && e.City is not"Amreli"
+                                           select e;
+        Console.WriteLine("Employees from other cities");
+
+        foreach (var item in other_emp)
+        {
+            Console.WriteLine(item);
+        }
     }
 }
+
