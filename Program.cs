@@ -37,5 +37,15 @@
         {
             Console.WriteLine(card);
         }
+
+        int[] numbers = { 10, 15, 35, 8, 45, 6, 345, 78, 45 };
+        var odds = from s in numbers
+                   where s % 2 != 0
+                   select s;
+        Console.WriteLine("Odd numbers are: ");
+        foreach (var num in odds)
+        {
+            Console.WriteLine(num);
+        }
     }
 }
