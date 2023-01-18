@@ -1,0 +1,15 @@
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.csproj.AssemblyReference.cache
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.AssemblyInfoInputs.cache
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.AssemblyInfo.cs
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.csproj.CoreCompileInputs.cache
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\bin\Debug\net6.0\Linq_basics.exe
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\bin\Debug\net6.0\Linq_basics.deps.json
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\bin\Debug\net6.0\Linq_basics.runtimeconfig.json
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\bin\Debug\net6.0\Linq_basics.dll
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\bin\Debug\net6.0\Linq_basics.pdb
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.dll
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\refint\Linq_basics.dll
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.pdb
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\Linq_basics.genruntimeconfig.cache
+C:\Users\Meet  Kerasiya\source\repos\Linq_basics\Linq_basics\obj\Debug\net6.0\ref\Linq_basics.dll
